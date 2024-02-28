@@ -22,11 +22,44 @@ function addTodo(){
 
 
 //update
+
+let indexValue;
 function updateTodo(e){
 
     e.preventDefault();
     let id = Number(e.target.id)
-    let data = todos.filter((todo)=>todo.id ===id )
+    let data = todos.filter((todo,index)=>{
+     
+        indexValue =index;
+
+        return todo.id ===id;
+    })
+
+    indexValue = id;
+
+    document.getElementById('title').value = data[0].title;
+    document.getElementById('btn');
+    document.getElementById('btn').style ="display:none";
+    let ubtn = document.createElement("button");
+    ubtn.textContent = 'saveupdate';
+    ubtn.id = "updateId";
+    ubtn.onclick = saveTodo;
+
+    let form = document.getElementById('form');
+
+    form.append(ubtn);
+
+}
+
+function saveTodo(){
+
+    document.getElementById("updateId").style ="display:none";
+    document.getElementById('btn').style="display:block";
+    let title = document.getElementById('title').value;
+    let obj = todos[indexValue]
+
+    todos[indexValue]={...obj,title:title}
+
 
 }
 
