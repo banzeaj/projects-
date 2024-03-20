@@ -9,6 +9,7 @@
     background-position: center;
     background-size: cover;
     height: 109vh;
+    
 
  }  
 
@@ -192,9 +193,9 @@
 
 }
 
-.education a{
+.education ul{
 
-   color:blueviolet;
+   color:black;
    font-family: Arial;
    padding-left: 20px;
 }
