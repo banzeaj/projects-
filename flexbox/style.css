@@ -1,0 +1,35 @@
+.container{
+
+    display:flex;
+     justify-content:space-between;
+    border: 10px solid black;
+    height: 90vh;
+
+}
+.box{
+
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: brown;
+}
+
+
+#box2{
+    background-color: yellow;
+}
+
+
+#box3{
+    background-color:gray;
+}
+
+
+#box4{
+    background-color: blue;
+}
