@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+.box1 {
+
+    border: 5px solid red;
+    background-color: #23424a;
+    color: #fff;
+    padding: 15px;
+
+}
+
+.child-box {
+
+    border: 5px solid purple;
+    width: 60%;
+
+}
+
+p {
+    border: 5px solid orange;
+}
+
+.box2{
+     background-color: aqua;
+     padding: 20px ;
+}
+
+.box2-child {
+    background-color: bisque;
+    padding: 100px;
+
+}
