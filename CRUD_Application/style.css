@@ -1,7 +1,7 @@
 
 body{
 
-    background-image: url('' );
+    background-image: url('./shutterstock_55043605-1068x709.jpg' );
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -43,5 +43,61 @@ input[type="text"],input[type="number"]{
 input[type="submit"], input[type="reset"]{
 
     background: #eee;
-    /* 10:53*/
+    padding: 12px;
+    margin: 15px 0 10px;
+    display: inline-block; 
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
 }
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+
+    background: #eee;
+    padding: 12px;
+    margin: 15px 0 10px;
+    display: inline-block; 
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button{
+    background: #4b99d8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
