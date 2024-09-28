@@ -58,5 +58,15 @@ body{
     width: 105%;
 }
 
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+section{
+    display: flex;
+}
+
 /*https://www.youtube.com/watch?v=KWIM5FuUJ8U*/
 
